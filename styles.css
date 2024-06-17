@@ -45,8 +45,16 @@ body {
     color: #777;
 }
 
-.section {
+.contact, .profile, .section {
     margin-bottom: 20px;
+}
+
+.contact ul, .section ul {
+    list-style: none;
+}
+
+.contact ul li, .section ul li {
+    margin-bottom: 10px;
 }
 
 .section h2 {
@@ -56,21 +64,14 @@ body {
     margin-bottom: 10px;
 }
 
-.section ul {
-    list-style: none;
-}
-
-.section ul li {
-    margin-bottom: 10px;
-}
-
-.section ul li .date {
+.date {
     font-weight: bold;
     margin-right: 10px;
 }
 
-.section ul li .details {
-    display: inline-block;
+.details {
+    display: block;
+    font-weight: bold;
 }
 
 .footer {
@@ -81,4 +82,13 @@ body {
 .footer p {
     color: #777;
     font-size: 0.9em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
