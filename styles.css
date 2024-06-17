@@ -74,6 +74,22 @@ body {
     font-weight: bold;
 }
 
+.photo-wheel {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.photo-wheel .slider {
+    margin-top: 10px;
+}
+
+.photo-wheel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 .footer {
     text-align: center;
     margin-top: 20px;
