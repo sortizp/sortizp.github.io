@@ -20,6 +20,7 @@ body {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
+    opacity: 75%;
   }
   
   #myBtn:hover {
